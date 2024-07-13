@@ -1,0 +1,23 @@
+// Example program
+#include <iostream>
+#include <string>
+using namespace std;
+
+string nama;
+int nim;
+string jrsn;
+char kdmtkl [10] ;
+
+int main()
+{
+ cout << "masukan nama" << endl;
+    getline(cin, nama);
+    cout << "masukan nim :";
+    cin >> nim;
+    cout << "masukian nama jurusan :";
+    cin >> jrsn;
+    cout << "masukan kode matakuliah :";
+    cin >> kdmtkl;
+    cout <<"nama; " << "nama << " nim: " << nim << " jurusan: " << jrsn << " kode mata kuliah: " <<kdmtl;
+  return
+}
